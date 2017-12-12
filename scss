@@ -1,0 +1,809 @@
+@charset "utf-8";
+
+*{
+	margin: 0px ;
+}
+
+/*HOMEPAGE*/
+
+/*nagivation*/
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-nav{
+	margin-top: 75px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+ }
+
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #fad771;
+}
+.navbar-brand{
+	height: 130px;
+	width: 180px;
+	padding: 10px 0 10px 10px;
+}
+
+li {
+	padding: 0 5px 0 5px;
+	font-family: "Fredoka One";
+}
+
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #fad771; 
+	color: #fff;
+}
+
+.row{
+	width: 100%;
+	margin: 0 auto;
+}
+/*for quick order tab*/
+#quickOrder{
+	background-image: url(../images/pizza1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 405px;
+
+}
+
+#tagline{
+	font-family: "Quicksand";
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#button{
+	width:260px;
+	height: 55px;
+	color: #000;
+	font-family: "Quicksand";
+	font-size: 25px;
+	padding: 10px 60px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#button:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #fad771;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #fad771;
+}
+
+
+/*for announcement tab*/
+.announcement{
+	background-color: #fad771;
+	height: 600px;
+}
+
+.announcement h2 {
+	padding: 0;
+	margin: 30px 0;
+	text-align: center;
+}
+
+
+
+h2{
+	font-family: "Fredoka One";
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+h3{
+	font-family: "Quicksand";
+	padding-top: 10px;
+}
+
+
+
+.module{
+	height: 200px;
+	width: 350px;
+	margin: 0 auto;
+	background-color: #e9c65f;
+	padding-left: 10px;
+}
+
+.module p{
+	padding: 10px 30px 0 0;
+	font-family: "Quicksand";
+}
+
+.new{
+	margin-top: 50px;
+}
+
+/*for reservations tab*/
+
+.reserve h2{
+	padding: 0;
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+
+.info{
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 80px;
+	text-align: center;
+}
+
+#submit{
+	width: 70px;
+	height: 30px;
+	background-color: #fad771;
+	font-family: "Quicksand";
+	padding: 4px 12px;
+	margin: 10px 0 0 228px;
+}
+
+#submit:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #fad771;
+}
+
+.form-group{
+	font-family: "Quicksand";
+	font-size: 15px;
+}
+
+/*CHECK OUT*/
+
+
+th{
+    padding: 15px 15px 0 15px;
+    text-align: left;
+    vertical-align: top;
+    font-family: "Fredoka One";
+    font-size: 15px;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+
+table{
+	height: 400px;
+	border: 1px solid black;
+}
+
+.billing{
+	height: 400px;
+	background-color: #fad771;
+	text-align: center;
+
+}
+
+.itembox{
+	padding-left: 8px;
+	margin-top: 30px;
+}
+
+#checkout{
+	margin-left: 4%;
+	padding: 30px 0 20px 0;
+}
+
+.radio{
+	margin-top: 30px;
+}
+
+.custinfo{
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 40px;
+	text-align: center;
+	font-family: "Quicksand";
+}
+
+#confirm{
+	width: 70px;
+	height: 30px;
+	background-color: #fad771;
+	font-family: "Quicksand";
+	padding: 4px 12px;
+	margin: 50px 0 30px 1115px;
+}
+
+.container{
+	height: 400px;
+}
+
+#info2 td{
+	padding-left: 10px;
+}
+
+#confirm:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #fad771;
+}
+
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+input[type="radio"]:checked ~ .reveal-if-active,
+input[type="checkbox"]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  overflow: visible;
+}
+
+/*contact us*/
+
+.contact{
+	background-color: #fad771;
+	height: 400px;
+}
+
+
+.item{
+	height: 400px;
+}
+
+.carousel-caption h3{
+	font-family: "Fredoka One";
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 20%;
+}
+
+.place{
+	padding-top: 20px;
+}
+
+.address{
+	font-family: "Quicksand";
+	width: 320px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+#phone{
+	padding-top: 20px;
+}
+
+.map{
+	width: 630px;
+	height: 400px;
+	padding-left: 0px;
+}
+#map {
+	background-color: #ddd;
+	width: 300px;
+	height: 300px;
+}
+.address p{
+	width: 250px;
+	float: right;
+
+}
+
+#reserveSeat{
+	width: 130px;
+	height: 30px;
+	background-color: #fad771;
+	font-family: "Quicksand";
+	padding: 5px 15px;
+	margin: 10px 0 30px 170px;
+}
+
+p{
+	margin: 0;
+}
+
+.pagejump a {
+	font-family: "Quicksand";
+	padding: 0 10px 0 10px;
+	height: 20px;
+}
+
+.pagejump{
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*menu*/
+
+
+.carousel-caption p{
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 10%;
+}
+
+.promotions .carousel-controls{
+	height: 100px;
+	margin-top: 100px;
+}
+
+
+
+h4 {
+	font-family: "Fredoka One";
+	font-size: 50px;
+	margin: 20px 0 0 100px;
+}
+
+.carousel-caption h4{
+	margin: 0 auto;
+}
+
+
+#foodsection2{
+	margin-left: 94px;
+}
+
+#category{
+	font-family: "Quicksand";
+	width: 1100px;
+	margin-left: 94px;
+
+}
+.box{
+	font-family: "Quicksand";
+	height: 250px;
+	float: left;
+}
+#box1 {
+	width: 1020px;
+	margin: 30px 0px 10px 10px;
+}
+
+#box1 p{
+	margin-bottom: 20px;
+}
+
+#box2 p{
+	margin: 30px 0 20px 0;
+	text-align: right;
+}
+
+#box2 {
+	width: 30px;
+	margin: 0 0 10px 10px;
+
+}
+
+#foodsection{
+	margin: 30px 0 20px 94px;
+}
+
+
+.foodinfo{
+	font-family: "Quicksand";
+	height: 600px;
+	float: left;
+	margin-left: 10px;
+}
+
+
+h5{
+	font-size: 20px;
+}
+
+#text-left p{
+	margin-bottom: 20px;
+}
+
+
+
+#photo-right{
+	margin: 0 0 20px 180px;
+}
+
+
+
+#text-right p{
+	margin-left: 240px;
+	text-align: right;
+
+}
+
+#text-right h5{
+	text-align: right;
+
+}
+
+.cart{
+	margin: 0 auto;
+}
+
+.cartinfo{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cart table{
+	width: 300px;
+}
+
+.drinkinfo{
+	width: 546px;
+	margin: 30px 0px 10px 8px;
+}
+
+
+.drinkbox{
+	height: 250px;
+	float: left;
+}
+
+#drinkbox1, #drinkbox2 {
+	width: 546px;
+	height: 800px;
+	margin: 30px 0px 10px 8px;
+}
+
+#drink1, #drink2 {
+	width: 540px;
+	height: 500px;
+	margin: 30px 0px 10px 8px;
+}
+
+
+#drinkbox1 p, #drinkbox2 p, #drink1 p, #drink2 p{
+	margin-bottom: 30px;
+}
+
+#drinkbox2 {
+	width: 546px;
+	margin: 30px 0px 10px 0px;
+
+}
+
+/*cart*/
+.btn-primary{
+	background-color: #fad771;
+	border-color: #fad771;
+	border-radius: 0;
+	margin-top: 7px;
+	font-size: 10px;
+}
+
+.btn-primary:focus{
+	display: none;
+}
+
+.btn-primary:hover{
+	background-color: white;
+	border-color: #fad771;
+	color: black;
+}
+
+.modal-title {
+	font-family: "Fredoka One";
+	padding-left: 10px;
+}
+
+
+footer p{ 
+	padding: 0;
+	margin: 0 auto;
+	height: 20px;
+	background-color: #ddd;
+	color: white;
+	
+}
+
+
+@media (max-width: 767px) {
+	/*homepage*/
+	.navbar-brand{
+		height:auto;
+		margin-bottom: 5px;
+	}
+
+	#tagline{
+		font-size: 40px;
+		padding-top: 50px;
+	}
+
+	#quickOrder{
+		min-height: 225px;
+		min-width: 90px;
+	}
+
+	#submit{
+		margin-bottom: 30px;
+	}
+
+	/*checkout*/
+
+	.itembox{
+		padding: 30px 0px 10px 8px;
+		width: 350px;
+		height: 400px;
+		margin: 0;
+	}
+
+	.custinfo{
+		margin-left: 20px;
+	}
+
+
+
+	#checkout{
+		font-size: 30px;
+	}
+
+	#confirm{
+		margin: 460px 0 30px 295px;
+	}
+
+	/*contactus*/
+
+	.contact{
+		height: 330px;
+		width: 400px;
+	}
+
+	.map{
+		margin-left: 40px;
+		width: 300px;
+	}
+
+	#map{
+		padding-left: 5px;
+	}
+
+	.item{
+		height: 160px;
+	}
+	
+	.carousel-caption h3{
+		font-size: 25px;
+		margin-bottom: 10%;
+	}
+
+	#reserveSeat{
+		font-size: 14px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.address{
+		font-size: 10px;
+	}
+
+	.address img{
+		width: 12%;
+		height: 12%;
+	}
+
+	.pagejump a {
+		display: none;
+	}
+
+	.pagejump{
+		display: none;
+	}
+
+	#pagejump{
+		display: none;
+	}
+
+	/*menu*/
+
+	#parent{
+		width: 366px;
+	}
+	
+	#category{
+		width: 360px;
+		height: 280px;
+		margin: 0 auto;
+
+	}
+
+	h4{
+		width: 200px;
+		font-size: 30px;
+		margin-left: 8px;
+	}
+
+	.box{
+		height: 200px;
+
+	}
+	
+	#box1 {
+		width: 320px;
+		margin-top: 30px;
+		font-size: 13px;
+	}
+
+	#box2 {
+
+		margin: 0;
+	}
+
+	#box2 p{
+		margin: 25px 0 10px 0;
+		text-align: right;
+		font-size: 13px;
+	}
+
+	.carousel-caption h4{
+		font-size: 25px;
+	}
+
+	.carousel-caption p{
+		font-size: 10px;
+
+	}
+
+	#pizzas{
+		width: 300px;
+		margin: 0;
+	
+	}
+	#pizzas #foodsection{
+		height: 550px;
+	}
+
+	#entree{
+		width: 380px;
+		margin: 0;
+	}
+
+	.foodinfo{
+		height: 500px;
+	}
+
+	#entree #category{
+		height: 100px;
+	}
+
+	#entree #foodsection{
+		height: 510px;
+		margin-bottom: 30px;
+	}
+
+	
+	#pizzaitem{
+		height: 800px;
+	}
+
+	#photo-right{
+		display: none;
+	}
+
+	#photo-left{
+		display: none;
+	}
+
+	#text-right{
+		margin-top: 30px;
+	}
+
+	#text-right p{
+		margin: 20px 0 10px 0;
+		font-size: 13px;
+		text-align: left;
+	}
+
+	#text-right h5{
+		margin:20px 0 0 0;
+		text-align: left;
+
+	}
+
+	#foodsection{
+		margin: 0;
+	}
+
+	#pizzas #foodsection2{
+		height: 580px;
+	}
+
+	#foodsection2{
+	height: 700px;
+	margin: 0;
+	}
+
+	#desserts #foodsection{
+		height: 620px;
+	}
+
+	#drinks{
+		height: 1150px;
+	}
+
+	.drinkinfo{
+		width: 350px;
+	}
+
+	#category{
+		margin: 0;
+	}
+
+	#drink1{
+		height: 430px;
+	}
+	
+	#drink2{
+		height: 400px;
+	}
+
+	#drink1 h5, #drink2 h5, #drinkbox1 h5, #drinkbox2 h5{
+		font-size: 15px;
+	}
+
+	#drink1 p, #drink2 p, #drinkbox1 p, #drinkbox2 p{
+		font-size: 13px;
+	}
+
+	#drink2, #drink1, #drinkbox1, #drinkbox2{
+		width: 350px;
+		margin: 20px 0 10px 10px;
+	}
+
+	#alcohol{
+		height: 1550px;
+		margin-top: 30px
+	}
+
+	#drinkbox1{
+		height: 580px;
+	}
+
+	#drinkbox2{
+		height: 650px;
+	}
+
+
+	}
+
+@media (min-width: 768px) {
+	#tagline{
+		font-size: 60px;
+		padding-top: 120px;
+	}
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+.cf:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+/* for mordern servers */
+
+.cf {
+	zoom:1;
+}
+/* for internet explorer */
